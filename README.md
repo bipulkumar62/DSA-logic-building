@@ -94,8 +94,22 @@ By practicing small examples repeatedly, the foundation becomes stronger, and la
 ```text
 DSA logic building/
 ├── README.md
-├── Arrays/
-│   ├── 01_Basic_array.cpp
-│   ├── 02_...
-│   └── ...
+└── Arrrays/
+	├── 01_Basic_array.cpp
+	├── 02_Loops_on_array.cpp
+	├── 03_Input_on_array.cpp
+	├── 04_Question_01.cpp
+	├── 05_Pass_by_reference.cpp
+	├── 06_Linear_search.cpp
+	└── 07_Reverse_an_array.cpp
 ```
+
+## Programs included
+
+- `01_Basic_array.cpp` - array declaration and initialization
+- `02_Loops_on_array.cpp` - traversing array elements with loops
+- `03_Input_on_array.cpp` - reading values into an array
+- `04_Question_01.cpp` - basic array problem practice
+- `05_Pass_by_reference.cpp` - changing array values inside a function
+- `06_Linear_search.cpp` - finding a target value and returning its index
+- `07_Reverse_an_array.cpp` - reversing an array with two pointers
