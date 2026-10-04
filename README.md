@@ -1,37 +1,53 @@
 # DSA Logic Building
 
-A beginner-focused C++ practice repository for learning data structures and algorithms through small examples and exercises.
+A collection of beginner-friendly C++ examples for learning data structures, algorithms, and problem-solving fundamentals. Each source file focuses on a small concept and can be compiled and run independently.
 
-## Topics
+## Topics covered
 
-- **Arrays:** declaration, initialization, traversal, input, pass by reference, linear search, and reversing an array.
-- **Vectors:** creating vectors, initialization, indexing, loops, size, `push_back`, `pop_back`, `front`, `back`, and bounds-checked access with `at`.
-- **Static and dynamic allocation:** introductory experiments with `std::vector` size and capacity as elements are added.
-- **LeetCode practice:** solutions to selected problems.
+### Arrays
+
+Array declaration and initialization, traversal, input, pass by reference, linear search, and reversal.
+
+### Vectors and memory allocation
+
+Creating and initializing `std::vector` objects, accessing elements, looping through values, checking size and capacity, and using `push_back`, `pop_back`, `front`, `back`, and `at`.
+
+### Subarrays and maximum subarray sum
+
+Generating subarrays, calculating maximum subarray sums with a nested-loop approach, and solving the maximum subarray problem with Kadane's algorithm.
 
 ## Repository structure
 
 ```text
 DSA logic building/
 ├── Arrrays/                         # Array fundamentals and exercises
-├── leetcode problems solve/         # LeetCode solutions
-├── Static and Dynamic Allocation/  # Vector size and capacity examples
+├── Kadanes Algorithm/               # Subarrays and maximum subarray sum
+├── Static and Dynamic Allocation/   # Vector size and capacity examples
 ├── Vectors/                         # Standard vector operations
 └── README.md
 ```
 
-Each lesson is a standalone C++ source file with a `main` function. Compile and run a file with a C++ compiler, for example:
+## Compile and run an example
+
+You need a C++ compiler such as `g++`. From the repository root, compile a source file and run the resulting program:
 
 ```bash
-g++ "Vectors/02_create_vector_with_values.cpp" -o vector_example
-./vector_example
+g++ "Kadanes Algorithm/03_Maximum_subarray_sum_using_Kadanes_Algorithm.cpp" -o kadane
+./kadane
+```
+
+On Windows, run the generated executable with:
+
+```powershell
+g++ "Kadanes Algorithm/03_Maximum_subarray_sum_using_Kadanes_Algorithm.cpp" -o kadane.exe
+.\kadane.exe
 ```
 
 ## Learning goals
 
-- Build problem-solving skills with clear, small steps.
-- Understand how arrays and dynamic containers store and expose data.
-- Practice common operations and recognize their behavior.
-- Develop a strong foundation for more advanced data structures and algorithms.
+- Strengthen C++ fundamentals through focused examples.
+- Understand how arrays and vectors store and expose data.
+- Compare straightforward solutions with more efficient algorithms.
+- Build a foundation for advanced data structures and algorithmic problem-solving.
 
-This repository is a learning journal, so examples may be simple experiments while concepts are being explored.
+The examples are part of an ongoing learning journey and may use small, fixed input values to keep each concept clear.
