@@ -16,6 +16,10 @@ Creating and initializing `std::vector` objects, accessing elements, looping thr
 
 Generating subarrays, calculating maximum subarray sums with a nested-loop approach, and solving the maximum subarray problem with Kadane's algorithm.
 
+### Pair sum
+
+Finding two values in a sorted array that add up to a target. The examples compare a brute-force nested-loop solution with a two-pointer solution that runs in linear time.
+
 ## Repository structure
 
 ```text
