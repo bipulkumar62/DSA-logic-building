@@ -20,12 +20,17 @@ Generating subarrays, calculating maximum subarray sums with a nested-loop appro
 
 Finding two values in a sorted array that add up to a target. The examples compare a brute-force nested-loop solution with a two-pointer solution that runs in linear time.
 
+### Pointers
+
+Taking the address of a variable, creating and dereferencing pointers, pointer-to-pointer basics, null pointers, passing values by pointer or reference, and pointers with arrays.
+
 ## Repository structure
 
 ```text
 DSA logic building/
 ├── Arrrays/                         # Array fundamentals and exercises
 ├── Kadanes Algorithm/               # Subarrays and maximum subarray sum
+├── Pointers/                        # Pointer and reference fundamentals
 ├── Static and Dynamic Allocation/   # Vector size and capacity examples
 ├── Vectors/                         # Standard vector operations
 └── README.md
