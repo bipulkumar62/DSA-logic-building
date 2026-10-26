@@ -22,7 +22,7 @@ Finding two values in a sorted array that add up to a target. The examples compa
 
 ### Pointers
 
-Taking the address of a variable, creating and dereferencing pointers, pointer-to-pointer basics, null pointers, passing values by pointer or reference, and pointers with arrays.
+Taking the address of a variable, creating and dereferencing pointers, pointer-to-pointer basics, null pointers, passing values by pointer or reference, pointers with arrays, and pointer arithmetic (increment, decrement, and subtraction).
 
 ## Repository structure
 
@@ -30,7 +30,7 @@ Taking the address of a variable, creating and dereferencing pointers, pointer-t
 DSA logic building/
 ├── Arrrays/                         # Array fundamentals and exercises
 ├── Kadanes Algorithm/               # Subarrays and maximum subarray sum
-├── Pointers/                        # Pointer and reference fundamentals
+├── Pointers/                        # Pointer, reference, and pointer arithmetic examples
 ├── Static and Dynamic Allocation/   # Vector size and capacity examples
 ├── Vectors/                         # Standard vector operations
 └── README.md
