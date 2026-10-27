@@ -20,6 +20,10 @@ Generating subarrays, calculating maximum subarray sums with a nested-loop appro
 
 Finding two values in a sorted array that add up to a target. The examples compare a brute-force nested-loop solution with a two-pointer solution that runs in linear time.
 
+### Binary search
+
+Searching sorted vectors with iterative and recursive binary search. The examples return the target's index, or `-1` when the target is not present.
+
 ### Pointers
 
 Taking the address of a variable, creating and dereferencing pointers, pointer-to-pointer basics, null pointers, passing values by pointer or reference, pointers with arrays, and pointer arithmetic (increment, decrement, and subtraction).
@@ -29,6 +33,7 @@ Taking the address of a variable, creating and dereferencing pointers, pointer-t
 ```text
 DSA logic building/
 ├── Arrrays/                         # Array fundamentals and exercises
+├── Binary Search/                   # Iterative and recursive binary search examples
 ├── Kadanes Algorithm/               # Subarrays and maximum subarray sum
 ├── Pointers/                        # Pointer, reference, and pointer arithmetic examples
 ├── Static and Dynamic Allocation/   # Vector size and capacity examples
